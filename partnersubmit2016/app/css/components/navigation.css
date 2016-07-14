@@ -1,0 +1,10 @@
+@value font-x-large from '../settings.css';
+@value color-black, color-dodger-blue from '../common/colors.css';
+.item {
+  display: inline-block;
+  text-decoration: none;
+  padding: 16px 32px;
+  color: color-black;
+}
+.dashboard{float: right;}
+
