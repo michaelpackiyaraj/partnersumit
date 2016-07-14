@@ -38,6 +38,7 @@ function loginSuccess(message) {
 }
 
 function loginError(message) {
+  console.log('mike error');
   return {
     type: types.LOGIN_ERROR_USER,
     message
