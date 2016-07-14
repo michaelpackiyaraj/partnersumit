@@ -1,20 +1,27 @@
 @value global-radius, font-large, font-medium, font-small from '../settings';
 @value color-athens-gray, color-mercury, color-white, color-dodger-blue, color-yellow, color-crimson, color-bombay from '../common/colors.css';
 
-.login {
-  width: 420px;
-  margin: 7% auto;
-  /*background-color: color-athens-gray;
-  border: 2px solid color-mercury;*/
-  border-radius: global-radius;
-}
-
+  .login {
+    width: 420px;
+    margin:10px auto;
+    /*background-color: color-athens-gray;
+    border: 2px solid color-mercury;*/
+    border-radius: global-radius;
+  }
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  width: 100%;
+  }
   .waiting {
     .loading {
       display: block;
     }
   }
-
+.login-main-container{
+    width: 100%;
+    height: 100%;
+    background-color: #C00;
+    position: absolute;
+}
   .alternative {
     background: color-white;
     padding: 12px 8px;

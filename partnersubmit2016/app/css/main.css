@@ -6,18 +6,17 @@
 * {
   box-sizing: border-box;
 }
-
+html{height: 100%;}
 body {
   margin: 0;
+  height: 100%;
 }
-
+.approot{height: 100%;}
 .app {
   composes: box from './common/layout.css';
-
-
 
   font-family: montserrat;
   font-weight: normal;
   font-smoothing: antialiased;
-  background-color: #c00;
+  height: 100%;
 }

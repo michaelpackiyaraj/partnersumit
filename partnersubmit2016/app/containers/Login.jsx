@@ -46,6 +46,7 @@ class Login extends Component {
   render() {
     const { isWaiting, message, isLogin, authenticated } = this.props.user;
     return (
+      <div className={cx('login-main-container')}>
       <div className={cx('login', {
         waiting: isWaiting
       })}>
@@ -74,6 +75,7 @@ class Login extends Component {
             <a href="mailto:michael.packiyaraj@target.com" className={cx('forgotpwd')}>Contact for password <img className={cx('arrow')} src={arrow} /></a>
           </div>
         </div>
+      </div>
       </div>
     );
   }
